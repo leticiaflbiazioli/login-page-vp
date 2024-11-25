@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Alice&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,17 +6,33 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-family: "Inter", sans-serif;
+  --color-black-1: #1e232c;
+  --color-black-2: #282e38;
+  --color-black-3: #1e232c;
+  --color-black-4: #363636;
+  --color-yellow-1: #ffc709;
+  --color-yellow-2: #ebb700;
+  --color-yellow-3: #8b5c01;
+  --color-yellow-4: #fdb528;
+  --color-white-1: #ffffff;
+  --color-white-2: #f2f2f7;
+  --color-white-3: #f7f8f933;
+  --color-error: #ff0000;
+  --color-success: #03c219;
+  --color-button-primary: #efc532;
+  --color-button-secondary: transparent;
+  --color-toast-text: #8a8a8e;
+  --color-title-page: #f7f8f9;
+  --color-subtitle-page: #e8e8e8;
 }
 
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-family);
+  background-color: var(--color-black-4);
+}
+
+.bg-page {
+  background-image: url(/background.svg);
+  background-size: cover;
 }

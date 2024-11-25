@@ -1,0 +1,61 @@
+.container-page {
+  /* display: flex; */
+  /* align-items: center;
+  justify-content: center; */
+  /* min-height: 100vh; */
+}
+
+.container-content {
+  color: var(--color-white-1);
+  padding: 32px;
+  border-radius: 6px;
+  width: 100%;
+  /* max-width: 28rem; */
+  /* grid-column-start: 2;
+  grid-column: span 2 / span 2; */
+}
+
+.image-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+.title-page {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: -0.01em;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--color-title-page);
+}
+
+.subtitle-page {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: -0.0032em;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: var(--color-subtitle-page);
+  margin-bottom: 16px;
+}
+
+.forgot-password {
+  font-size: 14px;
+  line-height: 16.8px;
+  text-align: right;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-bottom: 32px;
+}
+
+.toast-component {
+  position: fixed;
+  top: 16px;
+  right: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
